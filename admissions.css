@@ -1,0 +1,62 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f8fb;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #004080;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Headings */
+h1 {
+    color: #004080;
+    margin-top: 30px;
+}
+
+h2 {
+    color: #0066cc;
+    margin-top: 20px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+}
+
+/* Lists */
+ul, ol {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+/* Download Link Styling */
+a[href$=".pdf"] {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #004080;
+    text-decoration: none;
+}
+
+a[href$=".pdf"]:hover {
+    text-decoration: underline;
+}

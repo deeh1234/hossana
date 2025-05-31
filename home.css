@@ -1,0 +1,45 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    background-image: url(WhatsApp\ Image\ 2025-05-31\ at\ 20.17.09.jpeg);
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #004080;
+    padding: 15px;
+    text-align: center;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Headings */
+h1 {
+    color: #004080;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #0066cc;
+    font-style: italic;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
